@@ -1,5 +1,15 @@
-venv/
+# Artifacts and logs
+artifacts/
+catboost_info/
+logs/
+
+# Build files
+*.egg-info/
+
+# Python
 __pycache__/
 *.pyc
-artifacts/
-.env
+venv/
+
+# Data (optional)
+*.csv

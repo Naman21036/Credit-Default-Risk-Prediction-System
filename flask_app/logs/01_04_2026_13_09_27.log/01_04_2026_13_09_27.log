@@ -1,0 +1,6 @@
+[ 2026-01-04 13:09:29,785 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-01-04 13:09:29,800 ] 97 werkzeug - INFO -  * Debugger PIN: 530-560-318
+[ 2026-01-04 13:19:47,533 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\flask\\__init__.py', reloading
+[ 2026-01-04 13:19:47,537 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\flask\\templating.py', reloading
+[ 2026-01-04 13:19:47,544 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+[ 2026-01-04 13:19:47,546 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\jinja2\\environment.py', reloading

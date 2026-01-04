@@ -1,0 +1,4 @@
+[ 2026-01-04 02:06:22,863 ] 20 root - INFO - Entered data ingestion component
+[ 2026-01-04 02:06:22,953 ] 23 root - INFO - Dataset read successfully
+[ 2026-01-04 02:06:23,193 ] 28 root - INFO - Raw data saved
+[ 2026-01-04 02:06:23,440 ] 40 root - INFO - Data ingestion completed successfully

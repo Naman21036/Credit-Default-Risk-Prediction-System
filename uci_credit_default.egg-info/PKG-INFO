@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: uci_credit_default
+Version: 0.0.1
+Author: Naman
+Author-email: namangupta2132@gmail.com
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: sklearn
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

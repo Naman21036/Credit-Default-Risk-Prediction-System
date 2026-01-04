@@ -1,0 +1,5 @@
+[ 2026-01-04 13:21:05,935 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-01-04 13:21:05,938 ] 97 werkzeug - INFO -  * Debugger PIN: 530-560-318
+[ 2026-01-04 13:25:11,986 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jan/2026 13:25:11] "GET / HTTP/1.1" 200 -
+[ 2026-01-04 13:25:12,180 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jan/2026 13:25:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-01-04 13:26:02,116 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\src\\components\\data_transform.py', reloading

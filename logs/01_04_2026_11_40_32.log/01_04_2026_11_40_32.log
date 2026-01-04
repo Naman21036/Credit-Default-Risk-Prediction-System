@@ -1,0 +1,12 @@
+[ 2026-01-04 11:40:33,945 ] 16 root - INFO - Training pipeline started
+[ 2026-01-04 11:40:33,945 ] 20 root - INFO - Entered data ingestion component
+[ 2026-01-04 11:40:34,006 ] 23 root - INFO - Dataset read successfully
+[ 2026-01-04 11:40:34,234 ] 28 root - INFO - Raw data saved
+[ 2026-01-04 11:40:34,509 ] 40 root - INFO - Data ingestion completed successfully
+[ 2026-01-04 11:40:34,511 ] 22 root - INFO - Data ingestion completed
+[ 2026-01-04 11:40:34,663 ] 78 root - INFO - Train columns: ['LIMIT_BAL', 'SEX', 'EDUCATION', 'MARRIAGE', 'AGE', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6', 'default.payment.next.month', 'PAY_1']
+[ 2026-01-04 11:40:34,664 ] 79 root - INFO - Train and test data loaded
+[ 2026-01-04 11:40:34,669 ] 54 root - INFO - Numerical columns: ['LIMIT_BAL', 'AGE', 'PAY_1', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6']
+[ 2026-01-04 11:40:34,669 ] 55 root - INFO - Categorical columns: ['SEX', 'EDUCATION', 'MARRIAGE']
+[ 2026-01-04 11:40:34,669 ] 91 root - INFO - Fitting preprocessing object on training data
+[ 2026-01-04 11:40:34,694 ] 47 root - ERROR - Error occurred in training pipeline

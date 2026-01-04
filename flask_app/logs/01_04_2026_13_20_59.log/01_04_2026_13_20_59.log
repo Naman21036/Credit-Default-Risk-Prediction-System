@@ -1,0 +1,15 @@
+[ 2026-01-04 13:21:00,241 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-01-04 13:21:00,244 ] 97 werkzeug - INFO -  * Debugger PIN: 530-560-318
+[ 2026-01-04 13:21:02,657 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\flask\\globals.py', reloading
+[ 2026-01-04 13:21:02,658 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\flask\\wrappers.py', reloading
+[ 2026-01-04 13:21:02,662 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+[ 2026-01-04 13:21:02,664 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+[ 2026-01-04 13:21:02,668 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+[ 2026-01-04 13:21:02,718 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\flask\\typing.py', reloading
+[ 2026-01-04 13:21:02,720 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+[ 2026-01-04 13:21:02,730 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+[ 2026-01-04 13:21:02,732 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+[ 2026-01-04 13:21:02,750 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+[ 2026-01-04 13:21:02,766 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+[ 2026-01-04 13:21:02,771 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+[ 2026-01-04 13:21:02,780 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\venv\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading

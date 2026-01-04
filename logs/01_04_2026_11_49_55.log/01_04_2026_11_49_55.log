@@ -1,0 +1,18 @@
+[ 2026-01-04 11:49:56,995 ] 16 root - INFO - Training pipeline started
+[ 2026-01-04 11:49:56,995 ] 20 root - INFO - Entered data ingestion component
+[ 2026-01-04 11:49:57,113 ] 23 root - INFO - Dataset read successfully
+[ 2026-01-04 11:49:57,344 ] 28 root - INFO - Raw data saved
+[ 2026-01-04 11:49:57,591 ] 40 root - INFO - Data ingestion completed successfully
+[ 2026-01-04 11:49:57,593 ] 22 root - INFO - Data ingestion completed
+[ 2026-01-04 11:49:57,755 ] 77 root - INFO - Train columns: ['LIMIT_BAL', 'SEX', 'EDUCATION', 'MARRIAGE', 'AGE', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6', 'default.payment.next.month', 'PAY_1']
+[ 2026-01-04 11:49:57,756 ] 78 root - INFO - Train and test data loaded
+[ 2026-01-04 11:49:57,759 ] 53 root - INFO - Numerical columns: ['LIMIT_BAL', 'AGE', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6']
+[ 2026-01-04 11:49:57,759 ] 54 root - INFO - Categorical columns: ['SEX', 'EDUCATION', 'MARRIAGE', 'PAY_1', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6']
+[ 2026-01-04 11:49:57,759 ] 90 root - INFO - Fitting preprocessing object on training data
+[ 2026-01-04 11:49:57,846 ] 103 root - INFO - Preprocessing object saved
+[ 2026-01-04 11:49:57,848 ] 33 root - INFO - Data transformation completed
+[ 2026-01-04 11:49:57,848 ] 30 root - INFO - Splitting training and test arrays
+[ 2026-01-04 11:49:57,848 ] 84 root - INFO - Running GridSearchCV for sklearn classifiers
+[ 2026-01-04 11:50:23,238 ] 97 root - INFO - Training CatBoost separately
+[ 2026-01-04 11:50:27,219 ] 125 root - INFO - Best model selected: XGBoost | ROC AUC: 0.7788729909503596
+[ 2026-01-04 11:50:27,221 ] 42 root - INFO - Model training completed. Final ROC AUC: 0.7788729909503596

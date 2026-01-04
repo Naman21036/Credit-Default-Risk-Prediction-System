@@ -1,0 +1,3 @@
+[ 2026-01-04 13:32:46,650 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-01-04 13:32:46,654 ] 97 werkzeug - INFO -  * Debugger PIN: 530-560-318
+[ 2026-01-04 13:33:37,271 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jan/2026 13:33:37] "POST / HTTP/1.1" 200 -

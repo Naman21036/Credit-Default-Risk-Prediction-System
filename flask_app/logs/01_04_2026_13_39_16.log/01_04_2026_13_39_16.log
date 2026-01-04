@@ -1,0 +1,5 @@
+[ 2026-01-04 13:39:16,995 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-01-04 13:39:16,997 ] 97 werkzeug - INFO -  * Debugger PIN: 131-650-100
+[ 2026-01-04 13:39:34,087 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jan/2026 13:39:34] "GET / HTTP/1.1" 200 -
+[ 2026-01-04 13:40:24,661 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jan/2026 13:40:24] "POST / HTTP/1.1" 200 -
+[ 2026-01-04 13:43:30,858 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\src\\utils.py', reloading

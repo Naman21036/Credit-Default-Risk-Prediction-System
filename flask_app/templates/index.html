@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Default Risk Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- LEFT PANEL -->
+    <div class="panel form-panel">
+        <h2>Credit Risk Dashboard</h2>
+        <p class="subtitle">
+            AI powered assessment based on repayment behavior and credit history
+        </p>
+
+        <form method="POST">
+
+            <h3>Customer Profile</h3>
+            <div class="grid">
+                <div>
+                    <label>Credit Limit</label>
+                    <input name="LIMIT_BAL" required>
+                </div>
+
+                <div>
+                    <label>Age</label>
+                    <input name="AGE" required>
+                </div>
+
+                <div>
+                    <label>Gender</label>
+                    <select name="SEX">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Education</label>
+                    <select name="EDUCATION">
+                        <option value="Graduate School">Graduate School</option>
+                        <option value="University">University</option>
+                        <option value="High School">High School</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Marriage</label>
+                    <select name="MARRIAGE">
+                        <option value="Married">Married</option>
+                        <option value="Single">Single</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+            </div>
+
+            <h3>Repayment History</h3>
+            {% for i in range(1,7) %}
+            <label>PAY_{{ i }}</label>
+            <select name="PAY_{{ i }}">
+                <option value="Pay Duly">Pay Duly</option>
+                <option value="Delay for 1 months">Delay for 1 months</option>
+                <option value="Delay for 2 months">Delay for 2 months</option>
+                <option value="Delay for 3 months">Delay for 3 months</option>
+                <option value="Delay for 4 months">Delay for 4 months</option>
+                <option value="Delay for 5 months">Delay for 5 months</option>
+                <option value="Delay for 6 months">Delay for 6 months</option>
+                <option value="Delay for 7 months">Delay for 7 months</option>
+                <option value="Delay for 8 months">Delay for 8 months</option>
+            </select>
+            {% endfor %}
+
+            <h3>Billing & Payments</h3>
+            <div class="grid">
+                {% for i in range(1,7) %}
+                <div>
+                    <label>BILL_AMT{{ i }}</label>
+                    <input name="BILL_AMT{{ i }}" required>
+                </div>
+                <div>
+                    <label>PAY_AMT{{ i }}</label>
+                    <input name="PAY_AMT{{ i }}" required>
+                </div>
+                {% endfor %}
+            </div>
+
+            <button type="submit">Run Risk Assessment</button>
+        </form>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="panel result-panel">
+
+        <h3>Risk Overview</h3>
+
+        {% if result %}
+        <div class="gauge-wrapper">
+            <div class="gauge">
+                <div class="gauge-fill"
+                     style="transform: rotate({{ result.probability * 180 }}deg);">
+                </div>
+                <div class="gauge-center">
+                    {{ result.probability }}
+                </div>
+            </div>
+
+            <div class="risk-label {{ 'risk-high' if result.risk == 'High' else 'risk-low' }}">
+                {{ result.risk }} Risk
+            </div>
+        </div>
+
+        <div class="result-details">
+            <p><b>Default Probability:</b> {{ result.probability }}</p>
+            <p><b>Model Decision:</b> {{ result.risk }} Risk Account</p>
+        </div>
+        {% else %}
+        <p class="placeholder">
+            Submit customer details to view risk assessment
+        </p>
+        {% endif %}
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+[ 2026-01-04 13:26:11,047 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-01-04 13:26:11,050 ] 97 werkzeug - INFO -  * Debugger PIN: 530-560-318
+[ 2026-01-04 13:28:39,706 ] 97 werkzeug - INFO - 127.0.0.1 - - [04/Jan/2026 13:28:39] "POST / HTTP/1.1" 200 -
+[ 2026-01-04 13:32:25,875 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\src\\pipeline\\predict_pipe.py', reloading
+[ 2026-01-04 13:32:25,876 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\src\\pipeline\\predict_pipe.py', reloading
+[ 2026-01-04 13:32:25,877 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\src\\pipeline\\predict_pipe.py', reloading
+[ 2026-01-04 13:32:26,129 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\src\\pipeline\\predict_pipe.py', reloading
+[ 2026-01-04 13:32:26,132 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\src\\pipeline\\predict_pipe.py', reloading
+[ 2026-01-04 13:32:26,327 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\src\\pipeline\\predict_pipe.py', reloading
+[ 2026-01-04 13:32:26,330 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\naman\\OneDrive\\Desktop\\credit_card\\src\\pipeline\\predict_pipe.py', reloading
